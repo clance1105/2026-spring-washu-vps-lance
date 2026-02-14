@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,105 +7,108 @@
 
   <style>
 body{
-  background:#000;
+  background:#000000e9;
   font-family:"Comic Neue", sans-serif;
   margin:0;
-  color:#fff;
+
+  padding:40px;   
 }
+
 
 .menu{
-  max-width:520px;
-  margin:0 auto 60px;
-  padding:0 18px;
+  width:100%;        
+  max-width:900px;     
+  margin:0 auto;       
+
+  background:#000;
+  color:#fff;
+  border-radius:18px;
+  padding:28px;
+
   box-sizing:border-box;
-  position:relative;
+  overflow:auto;
+  
 }
 
-/* HERO */
-.skylodge{
-  width:100%;
-  height:420px;
-  object-fit:cover;
-  border-radius:0 0 18px 18px;
-  opacity:.88;
-}
 
-/* Title floats on top of the hero */
 h3{
-  position:absolute;
-  top:40px;
-  left:50%;
-  transform:translateX(-50%);
   font-family:"Lobster", cursive;
-  font-size:58px;
-  letter-spacing:0.55em;
-  margin:0;
-  padding:10px 18px;
-  border:1px solid rgba(255,255,255,0.30);
-  border-radius:999px;
-  background:rgba(0,0,0,0.35);
-  box-sizing:border-box;
+  font-size:54px;
   text-align:center;
+  letter-spacing:0.55em;
+  margin:10px 0 16px;
 }
 
 h2{
   text-align:center;
   font-size:13px;
-  margin:14px 0;
+  margin:8px 0;
   letter-spacing:0.22em;
+  opacity:.85;
+}
+
+.skylodge{
+  width:100%;
+  height:400px;
+  object-fit:cover;
+  border-radius:12px;
+  margin:18px 0 28px;
   opacity:.9;
 }
 
-/* Start content in a “card” that tucks into the hero */
-h1, ul, .inline-img{
-  position:relative;
-  top:-38px;
-}
 
 h1{
+  float:left;
+  width:28%;
   font-family:"Lobster", cursive;
   font-size:30px;
-  text-align:center;
-  letter-spacing:0.6em;
-  margin:26px 0 12px;
+  letter-spacing:0.35em;
+  margin:10px 0 18px;
   padding:14px 10px;
-  border:1px solid rgba(255,255,255,0.18);
-  border-radius:14px;
-  background:rgba(0,0,0,0.55);
+  box-sizing:border-box;
+  border-right:1px solid rgba(255,255,255,0.25);
+  text-align:left;
 }
 
-ul{ list-style:none; padding:0; margin:0; }
+ul{
+  float:right;
+  width:72%;
+  list-style:none;
+  padding:6px 0 18px 18px;
+  margin:0;
+  box-sizing:border-box;
+}
 
 li{
   display:flex;
   justify-content:space-between;
-  padding:12px 12px;
-  margin:8px 0;
-  border:1px solid rgba(255,255,255,0.12);
-  border-radius:12px;
-  box-sizing:border-box;
+  padding:10px 0;
+  border-bottom:1px dashed rgba(255,255,255,0.18);
   letter-spacing:0.05em;
 }
 
+/* Clear floats after each section:
+   since your HTML is h1 -> ul -> img,
+   we can clear at the image - Used CHAT bc I was so confused*/
 .inline-img{
+  clear:both;
   width:100%;
-  height:240px;
+  height:400px;
   object-fit:cover;
-  border-radius:14px;
+  border-radius:12px;
   margin:22px 0 10px;
-  opacity:.9;
+  opacity:.85;
 }
+
 
 li span:last-child{ font-weight:700; }
 
 a{ color:#fff; text-decoration:none; }
 a:hover{ text-decoration:underline; }
-
   </style>
 </head>
 
 <body>
-<div class="menu"></div>
   <div class="menu">
       <h3>SKYLODGE</h3>
 <a href="https://powdermountain.com/"><b><h2>POWDER MOUNTAIN UTAH</h2></b></a>
@@ -142,7 +144,7 @@ a:hover{ text-decoration:underline; }
 
         <img
       class="inline-img"
-      src="https://thumbs.dreamstime.com/b/three-spicy-fried-chicken-tenders-sit-dark-slate-plate-next-to-bowl-creamy-dipping-sauce-fresh-parsley-sprigs-crunchy-golden-411782250.jpg"
+      src="https://cdn-ilbdein.nitrocdn.com/qkShIANPFbpxPxJgBxbDTPbtLAOnqaCy/assets/images/optimized/rev-95f7a86/thehonestbison.com/wp-content/uploads/elk-bbq-brisket-sliders-recipe.jpg"
       alt="Cocktail"
     />
 
@@ -155,174 +157,10 @@ a:hover{ text-decoration:underline; }
 
         <img
       class="inline-img"
-      src="https://images.unsplash.com/photo-1544145945-f90425340c7e"
+      src="https://fireandiceontobycreek.com/wp-content/uploads/2022/04/cocktails.png"
       alt="Cocktail"
     />
     
   </div>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>SKYLODGE Menu</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-body{
-  background:#000;
-  font-family:"Comic Neue", sans-serif;
-  margin:0;
-  color:#fff;
-}
-
-.menu{
-  max-width:520px;
-  margin:0 auto 60px;
-  padding:0 18px;
-  box-sizing:border-box;
-  position:relative;
-}
-
-/* HERO */
-.skylodge{
-  width:100%;
-  height:420px;
-  object-fit:cover;
-  border-radius:0 0 18px 18px;
-  opacity:.88;
-}
-
-/* Title floats on top of the hero */
-h3{
-  position:absolute;
-  top:40px;
-  left:50%;
-  transform:translateX(-50%);
-  font-family:"Lobster", cursive;
-  font-size:58px;
-  letter-spacing:0.55em;
-  margin:0;
-  padding:10px 18px;
-  border:1px solid rgba(255,255,255,0.30);
-  border-radius:999px;
-  background:rgba(0,0,0,0.35);
-  box-sizing:border-box;
-  text-align:center;
-}
-
-h2{
-  text-align:center;
-  font-size:13px;
-  margin:14px 0;
-  letter-spacing:0.22em;
-  opacity:.9;
-}
-
-/* Start content in a “card” that tucks into the hero */
-h1, ul, .inline-img{
-  position:relative;
-  top:-38px;
-}
-
-h1{
-  font-family:"Lobster", cursive;
-  font-size:30px;
-  text-align:center;
-  letter-spacing:0.6em;
-  margin:26px 0 12px;
-  padding:14px 10px;
-  border:1px solid rgba(255,255,255,0.18);
-  border-radius:14px;
-  background:rgba(0,0,0,0.55);
-}
-
-ul{ list-style:none; padding:0; margin:0; }
-
-li{
-  display:flex;
-  justify-content:space-between;
-  padding:12px 12px;
-  margin:8px 0;
-  border:1px solid rgba(255,255,255,0.12);
-  border-radius:12px;
-  box-sizing:border-box;
-  letter-spacing:0.05em;
-}
-
-.inline-img{
-  width:100%;
-  height:240px;
-  object-fit:cover;
-  border-radius:14px;
-  margin:22px 0 10px;
-  opacity:.9;
-}
-
-li span:last-child{ font-weight:700; }
-
-a{ color:#fff; text-decoration:none; }
-a:hover{ text-decoration:underline; }
-
-  </style>
-</head>
-
-<body>
-<div class="menu"></div>
-  <div class="menu">
-      <h3>SKYLODGE</h3>
-<a href="https://powdermountain.com/"><b><h2>POWDER MOUNTAIN UTAH</h2></b></a>
- <a href="14.html"><b><h2>WINE LIST</h2></b></a>
-
-    <img
-      class="skylodge"
-      src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMsAPhdayU3I8YPqVRo6peMiyjzGig5XW0w32U2_Y6xJM8BaFKKwoLX7nX518VpkrUGBxmlrL1LeCYol3nWqyKpNkHwxCs0fT94E6abnKFf0kKQUoRk0uglgsHB_Qu1p6MGE3ofg=s1360-w1360-h1020-rw"
-      alt="Mountain lodge"
-    />
-
-  
-
-    <h1>Peckish</h1>
-    <ul>
-      <li><span>Peach and Basil</span><span>12</span></li>
-      <li><span>Beet and Goat Cheese</span><span>8</span></li>
-      <li><span>Caprese Skewers</span><span>6</span></li>
-    </ul>
-
-    <img
-      class="inline-img"
-      src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe"
-      alt="Food"
-    />
-
-    <h1>Hungry</h1>
-    <ul>
-      <li><span>Chicken Strips</span><span>14</span></li>
-      <li><span>Elk Sliders</span><span>18</span></li>
-      <li><span>Grilled Eggplant</span><span>24</span></li>
-    </ul>
-
-        <img
-      class="inline-img"
-      src="https://thumbs.dreamstime.com/b/three-spicy-fried-chicken-tenders-sit-dark-slate-plate-next-to-bowl-creamy-dipping-sauce-fresh-parsley-sprigs-crunchy-golden-411782250.jpg"
-      alt="Cocktail"
-    />
-
-    <h1>Thirsty</h2>
-    <ul>
-      <li><span>Mountain Old Fashioned</span><span>11</span></li>
-      <li><span>Grasshopper</span><span>9</span></li>
-      <li><span>Sky Toddy</span><span>12</span></li>
-    </ul>
-
-        <img
-      class="inline-img"
-      src="https://images.unsplash.com/photo-1544145945-f90425340c7e"
-      alt="Cocktail"
-    />
-    
-  </div>
-</body>
->>>>>>> 2d59eabcadf543740e4d340e3ac1ab4ffb891b57
 </html>
